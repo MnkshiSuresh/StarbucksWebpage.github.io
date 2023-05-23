@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*{
+    padding:0;
+    margin:0;
+    font-family:'Poppins',sans-serif;
+}
+
+.me{
+    position:relative;
+    padding :20px 100px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .me img{
+        position: relative;
+        max-width: 80px;
+    }
+.me ul{
+    display:flex;
+}    
+
+.me ul li {
+    list-style: none;
+}   
+.me ul li a {
+    text-decoration: none;
+    display:inline-block;
+    margin-left:40px;
+    color:#333;
+}    
+.po{
+    position:relative;
+    width:100%;
+    display:flex;
+    align-items: center;
+    
+}
+.pi{
+    position:relative;
+    padding :20px 100px;
+    }
+.ne{
+    font-weight: 500;
+    color:#333;
+    font-size: 2em;
+    line-height:1.4em;
+}
+.ne span{
+    color: #017143;
+    font-size:1.2em;
+    font-weight:900;
+    line-height:1.4em;
+}
+.text{
+    position: relative;
+    max-width:600px;
+    
+}
+.ko{
+    display: inline-block;
+    margin-top:20px;
+    padding:8px 20px;
+    background: #017143;
+    color:#fff;
+    border-radius:40px;
+    font-weight: 500;
+    letter-spacing:1px;
+    text-decoration: none;
+}
+.pic{
+    width:600px;
+    display:flex;
+    justify-content:flex-end;
+    padding-right: 50px;
+    margin-top:50px;
+}
+
+.pic img{
+    max-width:340px;
+    }
+
+
+.thumb{
+    position: absolute;
+    left:50%;
+    bottom:20px;
+    display: flex;
+    transform:translateX(-50%);
+}
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin:0 20px;
+    cursor:pointer;
+    transition:0.5s;
+}
+.thumb li:hover{
+    transform:translateY(-15px);
+}
+.thumb li img{
+    max-width:60px;
+}
+.sci{
+    position:absolute;
+    top:50%;
+    right:30px;
+    display:flex;
+    flex-direction:column;
+}
+.sci li{
+    list-style: none;
+}
+.sci li a{
+    display: inline-block;
+    margin:5px 0;
+    transform:scale(0.6);
+    filter:invert();
+}
+.circle{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background:#017143;
+    clip-path:circle(600px at right 800px);
+}
